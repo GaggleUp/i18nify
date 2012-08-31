@@ -28,3 +28,9 @@ You can then localize these strings in your config/locale/files, eg:
         bar:
           thing: "A theeng hes felooe-a %{value}"
           error: "I em irrur"
+
+TODO
+====
+
+1. Support custom key prefixes
+1. Rake task to collect all known strings to be localised, and add them to a `config/locale/*.yml` file.
