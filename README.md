@@ -1,6 +1,14 @@
 Usage
 ======
 
+In your `Gemfile`:
+    gem 'i18nify', :git => "git://github.com/GaggleUp/i18nify.git"
+
+If you want `I18nify` to magically attach to all ActiveRecord models, create
+an initializer in `config/initializers/active_record_extensions.rb` with this:
+
+    require 'i18nify'
+
 Include I18nify and call `has_strings` in your classes. Call `tr` to look up a translation:
 
     class Foo::Bar
